@@ -6,6 +6,6 @@ import retrofit2.http.GET;
 
 public interface  GetData {
 
-    @GET("/clientData")
+    @GET("GetClient.php")
     Call<List<Client>> getClientList();
 }
