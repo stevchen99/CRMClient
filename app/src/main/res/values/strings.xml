@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">CRM Client</string>
+    <string name="tachesRes">Taches</string>
+    <string name="heureRes">Heure</string>
 </resources>
