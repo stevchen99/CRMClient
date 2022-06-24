@@ -2,7 +2,11 @@ package com.example.crmclient.model
 
 data class TheClient(
 
-    val Id: Int,
+    val IdClient: Int,
     val Company: String
 
+
+
+
 )
+{ override fun toString(): String = Company}
