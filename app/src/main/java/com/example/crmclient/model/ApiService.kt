@@ -16,11 +16,13 @@ interface  ApiService {
     @GET("GetClient.php")
     fun getClient(): Call<List<TheClient>>
 
+    @GET("GetTaches.php")
+    fun getTaches(): Call<List<TheTaches>>
+
     @Headers("Content-Type: application/json")
     @POST("HistoCreateUpdJob.php")
     fun postHisto(@Body userData: TheHisto): Call<TheHisto>
-    //fun postHisto(@Body userData: TheHisto): Call<Void>
-    //fun postHisto(@Body requestBody: RequestBody): Response<ResponseBody>
+
 
     companion object {
 

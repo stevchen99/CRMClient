@@ -4,9 +4,5 @@ data class TheClient(
 
     val IdClient: Int,
     val Company: String
-
-
-
-
 )
 { override fun toString(): String = Company}
